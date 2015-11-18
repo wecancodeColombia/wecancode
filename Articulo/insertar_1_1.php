@@ -207,7 +207,7 @@ and open the template in the editor.
                 </div>
                 <div style=" height: 200px; margin-top: 10px;">
                     <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                        <div style=" float: left; width: 350px;">CPUI7860</div>
+                        <div style=" float: left; width: 350px;">CPUG4400</div>
                         <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
                             <div style=" height: 25px; text-align: right;">Costo $105.000</div>
                             <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>

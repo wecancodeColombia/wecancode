@@ -10,10 +10,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="../estilos/estilo.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/fuentes/general-ui/estilo_menu.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/demo.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/fuentes/general-ui/flaticon.css"> 
+        <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+        <link rel="stylesheet" type="text/css" href="estilos/fuentes/general-ui/estilo_menu.css">
+        <link rel="stylesheet" type="text/css" href="estilos/fuentes/general-ui/flaticon.css"> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <script type="text/javascript">
@@ -178,11 +177,24 @@ and open the template in the editor.
             </div>
         </div>
 
-        <div id="area_trabajo">
+        <div id="area_trabajo" style="  margin: 20px auto; width: 800px; font-family: 'Montserrat', sans-serif; letter-spacing: -1px; ">
+
+            <div id="menu_lateral" style=" float: left; width: 200px; margin-top: 10px; font-weight: 700; letter-spacing: 0px;">
+                <a href=""><div style=" color:  #000;">•Toda la tienda•</div></a>
+                <a href=""><div style=" color:  #000;">•Articulos en promoción•</div></a>
+                <div style="height: 10px;"></div>
+                <a href=""><div style=" color:  #000;">Procesadores</div></a>
+                <a href=""><div style=" color:  #000;">Placas madre</div></a>
+                <a href=""><div style=" color:  #000;">Tarjetas de video</div></a>
+                <a href=""><div style=" color:  #000;">Memorias ram</div></a>
+                <a href=""><div style=" color:  #000;">Discos duros</div></a>
+                <a href=""><div style=" color:  #000;">Combos Cpu+Board+Ram</div></a>
 
 
-            <div style=" margin: 20px auto; width: 500px; min-width: 560px; font-family: 'Montserrat', sans-serif; " >
-                <div style=" height: 200px; margin-top: 10px;">
+            </div>
+            <div style=" float: left; width: 500px; min-width: 560px; font-family: 'Montserrat', sans-serif; " >
+
+                <div style=" height: 170px; width: 560px; margin-top: 10px;" class="mostrar_articulo">
                     <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
                         <div style=" float: left; width: 350px;">CPUI7860</div>
                         <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
@@ -205,30 +217,8 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-                <div style=" height: 200px; margin-top: 10px;">
-                    <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                        <div style=" float: left; width: 350px;">CPUG4400</div>
-                        <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                            <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                            <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div style=" float: left;">
-                            <img src="https://pbs.twimg.com/profile_images/610307099864662016/JfHhO2W8.jpg" width="120" height="120"/>
-                        </div>
-                        <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                            <p>
-                                ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                Product Number: GTX1380GF1534FQW123<br>
-                                Enlace fabricante Aqui<br>
-                                Notas: Articulo Usado<br>
-                                Lote: A<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div style=" height: 200px; margin-top: 10px;">
+
+                <div style=" height: 170px; width: 560px; margin-top: 10px;" class="mostrar_articulo">
                     <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
                         <div style=" float: left; width: 350px;">CPUI7860</div>
                         <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
@@ -238,7 +228,7 @@ and open the template in the editor.
                     </div>
                     <div>
                         <div style=" float: left;">
-                            <img src="http://cdn.takas.lk/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/-/u/-usr-local-www-raptor_rwd-cache-56148c008e20a.jpg" width="120" height="120"/>
+                            <img src="http://media.wootware.co.za/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/p/o/poseidon-gtx980-p-4gd5_005.jpg" width="120" height="120"/>
                         </div>
                         <div style=" float: left; padding-left: 10px; padding-right: 10px;">
                             <p>
@@ -250,132 +240,12 @@ and open the template in the editor.
                             </p>
                         </div>
                     </div>
-                </div>
-                <div style=" height: 200px; margin-top: 10px;">
-                    <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                        <div style=" float: left; width: 350px;">CPUI7860</div>
-                        <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                            <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                            <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div style=" float: left;">
-                            <img src="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/10608156_110745685935656_1281490358_n.jpg" width="120" height="120"/>
-                        </div>
-                        <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                            <p>
-                                ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                Product Number: GTX1380GF1534FQW123<br>
-                                Enlace fabricante Aqui<br>
-                                Notas: Articulo Usado<br>
-                                Lote: A<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style=" margin: 20px auto; width: 500px; min-width: 560px; font-family: 'Montserrat', sans-serif; " >
-                    <div style=" height: 200px; margin-top: 10px;">
-                        <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                            <div style=" float: left; width: 350px;">CPUI7860</div>
-                            <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                                <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                                <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
-                            </div>
-                        </div>
-                        <div>
-                            <div style=" float: left;">
-                                <img src="http://media.wootware.co.za/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/p/o/poseidon-gtx980-p-4gd5_005.jpg" width="120" height="120"/>
-                            </div>
-                            <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                                <p>
-                                    ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                    Product Number: GTX1380GF1534FQW123<br>
-                                    Enlace fabricante Aqui<br>
-                                    Notas: Articulo Usado<br>
-                                    Lote: A<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style=" height: 200px; margin-top: 10px;">
-                        <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                            <div style=" float: left; width: 350px;">CPUI7860</div>
-                            <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                                <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                                <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
-                            </div>
-                        </div>
-                        <div>
-                            <div style=" float: left;">
-                                <img src="https://pbs.twimg.com/profile_images/610307099864662016/JfHhO2W8.jpg" width="120" height="120"/>
-                            </div>
-                            <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                                <p>
-                                    ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                    Product Number: GTX1380GF1534FQW123<br>
-                                    Enlace fabricante Aqui<br>
-                                    Notas: Articulo Usado<br>
-                                    Lote: A<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style=" height: 200px; margin-top: 10px;">
-                        <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                            <div style=" float: left; width: 350px;">CPUI7860</div>
-                            <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                                <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                                <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
-                            </div>
-                        </div>
-                        <div>
-                            <div style=" float: left;">
-                                <img src="http://cdn.takas.lk/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/-/u/-usr-local-www-raptor_rwd-cache-56148c008e20a.jpg" width="120" height="120"/>
-                            </div>
-                            <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                                <p>
-                                    ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                    Product Number: GTX1380GF1534FQW123<br>
-                                    Enlace fabricante Aqui<br>
-                                    Notas: Articulo Usado<br>
-                                    Lote: A<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style=" height: 200px; margin-top: 10px;">
-                        <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                            <div style=" float: left; width: 350px;">CPUI7860</div>
-                            <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                                <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                                <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
-                            </div>
-                        </div>
-                        <div>
-                            <div style=" float: left;">
-                                <img src="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/10608156_110745685935656_1281490358_n.jpg" width="120" height="120"/>
-                            </div>
-                            <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                                <p>
-                                    ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                    Product Number: GTX1380GF1534FQW123<br>
-                                    Enlace fabricante Aqui<br>
-                                    Notas: Articulo Usado<br>
-                                    Lote: A<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
+        </div>
 
 
 
-            <div id="pie"></div>
+        <div id="pie"></div>
     </body>
 </html>

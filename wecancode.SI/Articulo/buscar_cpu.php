@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/wecancode/wecancode.FACADE/Articulo.php';
+$articulo = new articulo();
+$salida = $articulo->consultar_cpu();
+?>
 <html>
     <head>
         <title>WeCanCode</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="../estilos/estilo.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/fuentes/general-ui/estilo_menu.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/demo.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/fuentes/general-ui/flaticon.css"> 
+        <link rel="stylesheet" type="text/css" href="../../estilos/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../../estilos/fuentes/general-ui/estilo_menu.css">
+        <link rel="stylesheet" type="text/css" href="../../estilos/fuentes/general-ui/flaticon.css"> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <script type="text/javascript">
@@ -178,81 +176,21 @@ and open the template in the editor.
             </div>
         </div>
 
-        <div id="area_trabajo">
+        <div id="area_trabajo" style="  margin: 20px auto; width: 800px; font-family: 'Montserrat', sans-serif; letter-spacing: -1px; ">
 
-
-            <div style=" margin: 20px auto; width: 500px; min-width: 560px; font-family: 'Montserrat', sans-serif; " >
-                <div class="" style=" font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px; text-align: center; line-height: 50px;">
-                    Registro de Artículos
-                </div>
-                <div style=" margin-top: 10px; letter-spacing: -1px; font-size: 30px;">
-                    <div style=" height: 50px; width: 500px;">
-                        <div style=" float: left; width: 120px; height: 50px; line-height: 40px;">
-                            Código
-                        </div>
-                        <div style=" float: left; width: 250px; height: 50px; ">
-                            <input style="text-transform: uppercase; width: 415px; height: 35px; font-family: 'Montserrat', sans-serif; font-size: 25px; padding-left: 10px; padding-right: 10px;"    type="text" name="codigo" value=""  />
-                        </div>
-                    </div>
-                    <div style=" height: 50px; width: 500px;">
-                        <div style=" float: left; width: 120px; height: 50px; line-height: 40px;">
-                            Lote
-                        </div>
-                        <div style=" float: left; width: 250px; height: 50px; ">
-                            <select name="lote" style=" background-color: white; width: 55px; height: 35px; font-family: 'Montserrat', sans-serif; font-size: 25px; padding-left: 10px;">
-                                <option>A</option>
-                                <option>B</option>
-                                <option>C</option>
-                                <option>D</option>
-                                <option>F</option>
-                            </select>
-
-                        </div>
-                    </div>
-                    <div style=" height: 110px; width: 500px;">
-                        <div style=" float: left; width: 180px; height: 50px; line-height: 40px;">
-                            Descripción
-                        </div>
-                        <div style=" width: 200px; height: 50px; ">
-                            <textarea style="resize: none; width: 535px; height: 40px; font-family: 'Montserrat', sans-serif; font-size: 15px; padding-left: 10px; padding-right: 10px;" name="descripcion_corta" ></textarea>
-                        </div>
-                    </div>
-                    <div style=" height: 110px; width: 500px;">
-                        <div style=" float: left; width: 280px; height: 50px; line-height: 40px;">
-                            Descripción HTML
-                        </div>
-                        <div style=" width: 200px; height: 50px; ">
-                            <textarea style="resize: none; width: 535px; height: 40px; font-family: 'Montserrat', sans-serif; font-size: 15px; padding-left: 10px; padding-right: 10px;" name="descripcion_html" ></textarea>
-                        </div>
-                    </div>
-                    <div style=" height: 50px; width: 500px;">
-                        <div style=" float: left; width: 170px; height: 50px; line-height: 40px;">
-                            # Producto
-                        </div>
-                        <div style=" float: left; width: 250px; height: 50px; ">
-                            <input style=" text-transform: uppercase; width: 363px; height: 35px; font-family: 'Montserrat', sans-serif; font-size: 25px; padding-left: 10px; padding-right: 10px;"    type="text" name="codigo" value=""  />
-                        </div>
-                    </div>
-                    <div style=" height: 50px; width: 500px;">
-                        <div style=" float: left; width: 170px; height: 50px; line-height: 40px;">
-                            Enlace URL
-                        </div>
-                        <div style=" float: left; width: 250px; height: 50px; ">
-                            <input style="width: 363px; height: 35px; font-family: 'Montserrat', sans-serif; font-size: 20px; padding-left: 10px; padding-right: 10px;"    type="text" name="codigo" value=""  />
-                        </div>
-                    </div>
-                    <div style=" height: 50px; width: 500px;">
-                        <div style=" float: left; width: 170px; height: 50px; line-height: 40px;">
-                            Notas
-                        </div>
-                        <div style=" float: left; width: 250px; height: 50px; ">
-                            <input style="width: 363px; height: 35px; font-family: 'Montserrat', sans-serif; font-size: 20px; padding-left: 10px; padding-right: 10px;"    type="text" name="codigo" value=""  />
-                        </div>
-                    </div>
-                </div>
-                <div class="" style="cursor: pointer; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px; text-align: center; line-height: 50px;">
-                    Guardar
-                </div>
+            <div id="menu_lateral" style=" float: left; width: 200px; margin-top: 10px; font-weight: 700; letter-spacing: 0px;">
+                <a href=""><div style=" color:  #000;">•Toda la tienda•</div></a>
+                <a href=""><div style=" color:  #000;">•Articulos en promoción•</div></a>
+                <div style="height: 10px;"></div>
+                <a href=""><div style=" color:  #000;">Procesadores</div></a>
+                <a href=""><div style=" color:  #000;">Placas madre</div></a>
+                <a href=""><div style=" color:  #000;">Tarjetas de video</div></a>
+                <a href=""><div style=" color:  #000;">Memorias ram</div></a>
+                <a href=""><div style=" color:  #000;">Discos duros</div></a>
+                <a href=""><div style=" color:  #000;">Combos Cpu+Board+Ram</div></a>
+            </div>
+            <div style=" float: left; width: 500px; min-width: 560px; font-family: 'Montserrat', sans-serif; " >
+                <?php echo $salida; ?>
             </div>
         </div>
 

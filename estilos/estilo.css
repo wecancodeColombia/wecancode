@@ -19,7 +19,9 @@ a{
 #cabezote
 {
     height: 90px;
-    background-color: rgb(231,76,60);
+    //background-color: rgb(231,76,60);
+    background-image:  url("../imagenes/fondo90.jpg");
+  
 }
 #sesion{
     float: left;

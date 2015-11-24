@@ -218,29 +218,31 @@ and open the template in the editor.
                     </div>
                 </div>
 
-                <div style=" height: 170px; width: 560px; margin-top: 10px;" class="mostrar_articulo">
-                    <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
-                        <div style=" float: left; width: 350px;">CPUI7860</div>
-                        <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
-                            <div style=" height: 25px; text-align: right;">Costo $105.000</div>
-                            <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
+                <a href="articulo_consultar.php">
+                    <div style=" height: 170px; width: 560px; margin-top: 10px;" class="mostrar_articulo">
+                        <div class="" style="padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
+                            <div style=" float: left; width: 350px;">CPUI7860</div>
+                            <div style=" float: left; width: 190px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px;">
+                                <div style=" height: 25px; text-align: right;">Costo $105.000</div>
+                                <div style=" height: 25px; text-align:  right;">Publico $4.135.000</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style=" float: left;">
+                                <img src="http://media.wootware.co.za/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/p/o/poseidon-gtx980-p-4gd5_005.jpg" width="120" height="120"/>
+                            </div>
+                            <div style=" float: left; padding-left: 10px; padding-right: 10px;">
+                                <p>
+                                    ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
+                                    Product Number: GTX1380GF1534FQW123<br>
+                                    Enlace fabricante Aqui<br>
+                                    Notas: Articulo Usado<br>
+                                    Lote: A<br>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div style=" float: left;">
-                            <img src="http://media.wootware.co.za/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/p/o/poseidon-gtx980-p-4gd5_005.jpg" width="120" height="120"/>
-                        </div>
-                        <div style=" float: left; padding-left: 10px; padding-right: 10px;">
-                            <p>
-                                ASUS Nvidia Gtx 980 Ti 4GB Ram<br>
-                                Product Number: GTX1380GF1534FQW123<br>
-                                Enlace fabricante Aqui<br>
-                                Notas: Articulo Usado<br>
-                                Lote: A<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
 

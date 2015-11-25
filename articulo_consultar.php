@@ -190,7 +190,7 @@ and open the template in the editor.
 
     <div id="area_trabajo" style="  margin: 20px auto; width: 800px; font-family: 'Montserrat', sans-serif; letter-spacing: -1px; ">
         <div style=" height: 500px; width: 800px; margin-top: 10px;">
-            <div class="" style="  padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-image:  url('imagenes/fondo3.jpg'); color:  white; font-size: 37px;  line-height: 50px;">
+            <div class="" style="  padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px;       background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
                 <div style=" float: left; width: 500px;">CPUI7860</div>
                 <div style=" float: left; width: 270px; padding-right: 10px;font-size:  15px; font-weight:300; height: 50px; line-height: 25px; letter-spacing: -1px;">
                     <div style=" height: 25px; text-align: right;">Articulo Nuevo</div>
@@ -236,7 +236,7 @@ and open the template in the editor.
             <img style="" src="http://www.legitreviews.com/images/reviews/540/asrock_667d_fullboard.jpg" width="65" height="65">
             <img style="" src="http://www.legitreviews.com/images/reviews/540/asrock_667d_fullboard.jpg" width="65" height="65">
         </div>
-        <div style="margin-top: 10px; padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-image:  url('imagenes/fondo3.jpg');; color:  white; font-size: 37px;  line-height: 50px;">
+        <div style="margin-top: 10px; padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px;     background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
             Descripción del articulo
         </div>
         <div style="width: 785px; padding-left: 10px; padding-right: 5px; font-size: 15px; text-align: center;">
@@ -253,7 +253,7 @@ and open the template in the editor.
                 Envios a todo el pais.<br>
             </p>
         </div>
-        <div style="margin-top: 10px; padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-image:  url('imagenes/fondo3.jpg'); color:  white; font-size: 37px;  line-height: 50px;">
+        <div style="margin-top: 10px; padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px;     background-color: rgb(231,76,60); color:  white; font-size: 37px;  line-height: 50px;">
             ¿Tienes alguna duda? ¡Realiza un comentario!
         </div>
         <div class="fb-comments" data-href="www.wecancode.com.co" data-width="800" data-numposts="5"></div>   <div style=" padding-left: 10px; font-weight: 700; letter-spacing: -2px;  height: 50px; background-image:  url('imagenes/fondo3.jpg');  background-position: 30% 20%;  color:  white; font-size: 37px;  line-height: 50px;">
